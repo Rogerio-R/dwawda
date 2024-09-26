@@ -13,9 +13,9 @@ function Queda() {
 function iniciarQueda() {
     const objeto = document.getElementById('objeto');
     let altura = 0; 
-    const g = 9.8;
+    const g = 100;
     let tempo = 0;
-    const maxAltura = 300; 
+    const maxAltura = 3000; 
     
     intervalo = setInterval(() => {
         if (!pausado) {
