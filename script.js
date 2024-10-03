@@ -14,7 +14,7 @@ function iniciarQueda() {
     const objeto = document.getElementById('objeto');
     let altura = 0; 
     const g = 100;
-    let tempo = 0;
+    let tempo = 80;
     const maxAltura = 3000; 
     
     intervalo = setInterval(() => {
